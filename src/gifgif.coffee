@@ -73,3 +73,6 @@ module.exports = (robot) ->
               msg.send "GifGif #{res.statusCode} error:\n#{body}"
     else
       msg.send "\u261B Valid emotions include: #{emotions}"
+
+  robot.respond /gifgif\?/i, (msg) ->
+    msg.send "\u261B Valid emotions include: #{emotions}"
