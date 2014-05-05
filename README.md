@@ -17,7 +17,7 @@ Hubot> hubot gifgif fear
 Add the package `hubot-gifgif` as a dependency in your Hubot `package.json` file.
 
     "dependencies": {
-      "hubot-gifgif": "1.0.x"
+      "hubot-gifgif": "0.1.x"
     }
 
 Run the following command to make sure the module is installed.
