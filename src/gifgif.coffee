@@ -48,8 +48,8 @@ emotions = [
            ]
 
 module.exports = (robot) ->
-  robot.respond /gifgif (\w+)/, (msg) ->
-    query = msg.match[1].toLowerCase()
+  robot.respond /gifgif (.*)/i, (msg) ->
+    query = msg.match[1]
     results = fuzzy.filter(query, emotions)
     matches = results.map (x) -> x.string
     if matches.length > 0

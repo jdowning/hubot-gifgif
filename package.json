@@ -1,7 +1,7 @@
 {
   "name": "hubot-gifgif",
   "description": "A way to search images on GifGif  (http://gifgif.media.mit.edu)",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "author": "Justin Downing <justin@downing.us>",
   "license": "MIT",
 
