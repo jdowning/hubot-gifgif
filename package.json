@@ -1,0 +1,38 @@
+{
+  "name": "hubot-gifgif",
+  "description": "A way to search images on GifGif  (http://gifgif.media.mit.edu)",
+  "version": "0.1.0",
+  "author": "Justin Downing <justin@downing.us>",
+  "license": "MIT",
+
+  "keywords": [
+    "hubot",
+    "hubot-scripts",
+    "gif"
+  ],
+
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/justindowning/hubot-gifgif.git"
+  },
+  "bugs": {
+    "url": "https://github.com/justindowning/hubot-gifgif/issues"
+  },
+
+  "dependencies": {
+    "coffee-script": "~1.6",
+    "fuzzy": "0.1.0"
+  },
+  "devDependencies": {
+    "mocha": "*",
+    "chai": "*",
+    "sinon-chai": "*",
+    "sinon": "*"
+  },
+
+  "main": "index.coffee",
+  "scripts": {
+    "test": "script/test"
+  }
+
+}
