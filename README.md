@@ -4,7 +4,7 @@ A Hubot script to search for images on GifGif (http://gifgif.media.mit.edu)
 
 # Requirements
 
-You will need a GifGif API key. More information on obtaining an API key available here:  http://gifgif.media.mit.edu/data
+You will need a GifGif API key. More information on obtaining an API key available here: http://gifgif.media.mit.edu/data
 
 # Usage
 ```
@@ -12,7 +12,7 @@ Hubot> hubot gifgif fear
 [hubot] http://media.giphy.com/media/U0KKP27zRTL1e/giphy.gif
 ```
 
-# Intallation
+# Installation
 
 Add the package `hubot-gifgif` as a dependency in your Hubot `package.json` file.
 
